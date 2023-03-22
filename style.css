@@ -970,7 +970,11 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #ADAEAF;
+  color: #adaeaf;
   margin-top: 72.5px;
   margin-left: 808px;
+}
+.container .footer .pc a {
+  text-decoration: none;
+  color: #adaeaf;
 }/*# sourceMappingURL=style.css.map */
