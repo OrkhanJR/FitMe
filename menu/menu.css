@@ -1,0 +1,827 @@
+html {
+  width: 1920px;
+  height: 2079px;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+.container .header {
+  display: flex;
+  font-weight: 500;
+  margin-top: 61px;
+  font-family: "Open Sans";
+}
+.container .header .logo {
+  margin-left: 240px;
+}
+.container .header .navigation {
+  display: flex;
+  gap: 56px;
+  margin-left: 197px;
+}
+.container .header .navigation .menu {
+  display: flex;
+}
+.container .header .navigation .menu .line {
+  position: relative;
+  bottom: -20px;
+  right: 27px;
+}
+.container .header a {
+  text-decoration: none;
+  color: #111112;
+  margin-top: 10px;
+}
+.container .header .shop .bag {
+  margin-left: 227.29px;
+  display: flex;
+}
+.container .header .shop .bag .bag_img {
+  margin-bottom: 0.14px;
+}
+.container .header .shop .bag .button {
+  margin-left: 33.36px;
+}
+.container .header .shop .bag .button .btn {
+  font-family: "Open Sans";
+  padding: 0 25px;
+  border: 2px solid #111112;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background-color: #111112;
+  cursor: pointer;
+}
+.container .menu .title {
+  color: #111112;
+  margin-top: 137px;
+  margin-left: 238px;
+  width: 109px;
+  height: 62px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 62px;
+}
+.container .menu .categories {
+  display: flex;
+  gap: 18px;
+}
+.container .menu .categories .top-btn {
+  margin-top: 23px;
+  margin-left: 240px;
+}
+.container .menu .categories .top-btn .top {
+  border: 1px solid #111112;
+  border-radius: 12px;
+  width: 121px;
+  height: 36px;
+  background: #fdfbfa;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.container .menu .categories .button-b {
+  margin-top: 23px;
+}
+.container .menu .categories .button-b .btn-b {
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 119px;
+  height: 36px;
+  background: #f5f5f5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.container .menu .categories .button-2b {
+  margin-top: 23px;
+}
+.container .menu .categories .button-2b .btn-2b {
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 132px;
+  height: 36px;
+  background: #f5f5f5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.container .menu .categories .button-l {
+  margin-top: 23px;
+}
+.container .menu .categories .button-l .btn-l {
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 94px;
+  height: 36px;
+  background: #f5f5f5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.container .menu .categories .button-s {
+  margin-top: 23px;
+}
+.container .menu .categories .button-s .btn-s {
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 100px;
+  height: 36px;
+  background: #f5f5f5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.container .menu .categories .button-d {
+  margin-top: 23px;
+}
+.container .menu .categories .button-d .btn-d {
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  width: 99px;
+  height: 36px;
+  background: #f5f5f5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.container .menu .categories .choose {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 340px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111112;
+}
+.container .menu .categories .choose .select {
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+  width: 223px;
+  height: 50px;
+  border: 1px solid #adaeaf;
+  border-radius: 18px;
+}
+.container .food-top {
+  margin-top: 28px;
+  margin-left: 240px;
+  display: flex;
+  gap: 20px;
+}
+.container .food-top .dish1 {
+  width: 347px;
+  height: 470px;
+}
+.container .food-top .dish1 #name {
+  position: relative;
+  left: 128px;
+  bottom: 20px;
+}
+.container .food-top .dish1 .parent {
+  margin-top: -32px;
+}
+.container .food-top .dish1 .parent .title-b {
+  display: flex;
+}
+.container .food-top .dish1 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish1 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-top .dish1 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 278px;
+  height: 19px;
+  margin-top: -26px;
+}
+.container .food-top .dish1 .parent .foot {
+  margin-top: 18px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish1 .parent .foot .diet {
+  color: #adaeaf;
+}
+.container .food-top .dish1 .parent .foot .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-top .dish1 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-top .dish2 {
+  width: 347px;
+  height: 470px;
+}
+.container .food-top .dish2 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-top .dish2 .parent {
+  margin-top: -32px;
+}
+.container .food-top .dish2 .parent .title-b {
+  display: flex;
+}
+.container .food-top .dish2 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish2 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-top .dish2 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -45px;
+}
+.container .food-top .dish2 .parent .foot {
+  margin-top: 18px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish2 .parent .foot .diet {
+  color: #adaeaf;
+}
+.container .food-top .dish2 .parent .foot .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-top .dish2 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-top .dish3 {
+  width: 347px;
+  height: 470px;
+}
+.container .food-top .dish3 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-top .dish3 .parent {
+  margin-top: -32px;
+}
+.container .food-top .dish3 .parent .title-b {
+  display: flex;
+}
+.container .food-top .dish3 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish3 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-top .dish3 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -45px;
+}
+.container .food-top .dish3 .parent .foot {
+  margin-top: 18px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish3 .parent .foot .diet {
+  color: #adaeaf;
+}
+.container .food-top .dish3 .parent .foot .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-top .dish3 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-top .dish4 {
+  width: 347px;
+  height: 470px;
+}
+.container .food-top .dish4 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-top .dish4 .parent {
+  margin-top: -32px;
+}
+.container .food-top .dish4 .parent .title-b {
+  display: flex;
+}
+.container .food-top .dish4 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish4 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-top .dish4 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -45px;
+}
+.container .food-top .dish4 .parent .foot {
+  margin-top: 18px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-top .dish4 .parent .foot .diet-type {
+  display: flex;
+  width: 107px;
+  height: 22px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container .food-top .dish4 .parent .foot .diet-type .diet {
+  color: #adaeaf;
+}
+.container .food-top .dish4 .parent .foot .diet-type .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-top .dish4 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-bottom {
+  margin-top: 68px;
+  margin-left: 240px;
+  display: flex;
+  gap: 20px;
+}
+.container .food-bottom .dish5 {
+  width: 347px;
+  height: 491px;
+}
+.container .food-bottom .dish5 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-bottom .dish5 .parent {
+  margin-top: -32px;
+}
+.container .food-bottom .dish5 .parent .title-b {
+  display: flex;
+}
+.container .food-bottom .dish5 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish5 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-bottom .dish5 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -45px;
+}
+.container .food-bottom .dish5 .parent .foot {
+  margin-top: 38px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish5 .parent .foot .diet-type {
+  display: flex;
+  width: 107px;
+  height: 22px;
+}
+.container .food-bottom .dish5 .parent .foot .diet-type .diet {
+  color: #adaeaf;
+}
+.container .food-bottom .dish5 .parent .foot .diet-type .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-bottom .dish5 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-bottom .dish6 {
+  width: 347px;
+  height: 491px;
+}
+.container .food-bottom .dish6 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-bottom .dish6 .parent {
+  margin-top: -32px;
+}
+.container .food-bottom .dish6 .parent .title-b {
+  display: flex;
+}
+.container .food-bottom .dish6 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish6 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-bottom .dish6 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -26px;
+}
+.container .food-bottom .dish6 .parent .foot {
+  margin-top: 18px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish6 .parent .foot .diet-type {
+  display: flex;
+  width: 107px;
+  height: 22px;
+}
+.container .food-bottom .dish6 .parent .foot .diet-type .diet {
+  color: #adaeaf;
+}
+.container .food-bottom .dish6 .parent .foot .diet-type .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-bottom .dish6 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-bottom .dish7 {
+  width: 347px;
+  height: 491px;
+}
+.container .food-bottom .dish7 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-bottom .dish7 .parent {
+  margin-top: -32px;
+}
+.container .food-bottom .dish7 .parent .title-b {
+  display: flex;
+}
+.container .food-bottom .dish7 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish7 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-bottom .dish7 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -45px;
+}
+.container .food-bottom .dish7 .parent .foot {
+  margin-top: 38px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish7 .parent .foot .diet-type {
+  display: flex;
+  width: 107px;
+  height: 22px;
+}
+.container .food-bottom .dish7 .parent .foot .diet-type .diet {
+  color: #adaeaf;
+}
+.container .food-bottom .dish7 .parent .foot .diet-type .slim {
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-bottom .dish7 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 188px;
+}
+.container .food-bottom .dish8 {
+  width: 347px;
+  height: 491px;
+}
+.container .food-bottom .dish8 #name {
+  position: relative;
+  bottom: 20px;
+  left: 128px;
+}
+.container .food-bottom .dish8 .parent {
+  margin-top: -32px;
+}
+.container .food-bottom .dish8 .parent .title-b {
+  display: flex;
+}
+.container .food-bottom .dish8 .parent .title-b .title-break {
+  width: 267px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish8 .parent .title-b .kcal {
+  width: 61px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #adaeaf;
+}
+.container .food-bottom .dish8 .parent .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+  width: 286px;
+  height: 38px;
+  margin-top: -45px;
+}
+.container .food-bottom .dish8 .parent .foot {
+  margin-top: 38px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .food-bottom .dish8 .parent .foot .diet-type {
+  display: flex;
+  width: 115px;
+  height: 22px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container .food-bottom .dish8 .parent .foot .diet-type .diet {
+  display: flex;
+  color: #adaeaf;
+}
+.container .food-bottom .dish8 .parent .foot .diet-type .diet .slim {
+  display: flex;
+  color: #111112;
+  margin-left: 5px;
+}
+.container .food-bottom .dish8 .parent .foot .diet-type .diet .slim .box {
+  color: #111112;
+  margin-left: 6px;
+}
+.container .food-bottom .dish8 .parent .foot .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 140px;
+}
+.container .more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 88px;
+  margin-left: 933px;
+  margin-right: 912px;
+}
+.container .more .button {
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container .more .button .see {
+  width: 75px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111112;
+}
+.container .more .line {
+  width: 8px;
+  height: 3px;
+  margin-top: -21px;
+  margin-left: 5px;
+}
+.container .footer {
+  width: 1920px;
+  height: 313px;
+  margin-top: 197px;
+  background-color: #f5f5f5;
+}
+.container .footer .foot-nav {
+  display: flex;
+  align-items: center;
+}
+.container .footer .foot-nav .logo-foot {
+  margin-left: 240px;
+  margin-top: 65px;
+}
+.container .footer .foot-nav .navigation {
+  display: flex;
+  margin-top: 65px;
+  margin-left: 184px;
+  gap: 56px;
+}
+.container .footer .foot-nav .navigation a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #111112;
+}
+.container .footer .foot-nav .contacts {
+  margin-left: 185px;
+  margin-top: 80px;
+}
+.container .footer .foot-nav .contacts .foot-p {
+  display: inline;
+  width: 192px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #adaeaf;
+}
+.container .footer .foot-nav .contacts .foot-p .number {
+  display: inline;
+  margin-left: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111112;
+}
+.container .footer .icons {
+  display: flex;
+  gap: 24px;
+  margin-top: 42.5px;
+  margin-left: 913px;
+}
+.container .footer .pc {
+  display: flex;
+  gap: 31px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #adaeaf;
+  margin-top: 72.5px;
+  margin-left: 808px;
+}
+.container .footer .pc a {
+  text-decoration: none;
+  color: #adaeaf;
+}/*# sourceMappingURL=menu.css.map */

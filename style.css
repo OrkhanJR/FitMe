@@ -2,21 +2,20 @@
   font-family: "Gilroy";
   src: url("fonts/Gilroy-Light.woff") format("woff");
 }
-html {
-  width: 1920px;
-  height: 7252px;
-}
-
 body {
   font-family: "Open Sans";
   font-style: normal;
 }
 
+.container {
+  width: 1920px;
+  height: 7252px;
+}
 .container .header {
   display: flex;
   font-weight: 500;
   margin-top: 61px;
-  font-family: "Gilroy";
+  font-family: "Open Sans";
 }
 .container .header .logo {
   margin-left: 240px;
