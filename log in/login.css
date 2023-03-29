@@ -1,0 +1,200 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+header img {
+  width: 200px;
+}
+
+.divider img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 430px;
+  width: 580px;
+  flex-direction: column;
+}
+main .main-page {
+  display: flex;
+}
+main .main-page #login {
+  width: 94px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+main form {
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+main form .mail {
+  display: flex;
+  flex-direction: column;
+}
+main form .mail label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #adaeaf;
+}
+main form .mail input {
+  margin-top: 7px;
+  height: 56px;
+  border: 1px solid #adaeaf;
+  border-radius: 22px;
+}
+main form .password {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+main form .password .psw {
+  margin-bottom: -10px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #adaeaf;
+}
+main form .password .psw .img {
+  margin-left: 421px;
+}
+main form .password .psw .img .see-btn {
+  color: transparent;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+main form .password input {
+  margin-top: 7px;
+  height: 56px;
+  border: 1px solid #adaeaf;
+  border-radius: 22px;
+}
+main form .container {
+  margin-top: 10px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+main form .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+main form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+}
+main form .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+main form .container input:checked ~ .checkmark {
+  background-color: #111111;
+}
+main form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+main form .container input:checked ~ .checkmark:after {
+  display: block;
+}
+main form .container .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+main .login-foot {
+  margin-top: 20px;
+}
+main .login-foot .terms p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+main .login-foot .terms p a {
+  color: #111111;
+}
+main .login-foot .login-btn button {
+  width: 580px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #111112;
+  color: whitesmoke;
+  cursor: pointer;
+}
+main .login-foot .login-btn button p {
+  font-size: 22px;
+}
+main .login-foot .forget {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+main .login-foot .forget .psw {
+  color: #111112;
+}
+main .login-foot .register {
+  display: flex;
+  justify-content: center;
+}
+main .login-foot .register p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #adaeaf;
+}
+main .login-foot .register a {
+  color: #111112;
+}
+main .login-foot .authorization {
+  margin-top: 30px;
+}
+main .login-foot .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}/*# sourceMappingURL=login.css.map */

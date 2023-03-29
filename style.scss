@@ -3,8 +3,6 @@
   src: url("fonts/Gilroy-Light.woff") format("woff");
 }
 
-
-
 body {
   font-family: "Open Sans";
   font-style: normal;
@@ -14,6 +12,7 @@ body {
   width: 1920px;
   height: 7252px;
   .header {
+    width: 100%;
     display: flex;
     font-weight: 500;
     margin-top: 61px;
@@ -68,11 +67,13 @@ body {
 
   .dishes {
     .right {
+      max-width: 100%;
       float: right;
       margin-top: 171px;
     }
 
     .left {
+      max-width: 100%;
       float: left;
       margin-top: 193px;
     }
@@ -1054,8 +1055,6 @@ body {
         margin-left: 184px;
         gap: 56px;
 
-       
-
         a {
           font-weight: 400;
           font-size: 14px;
@@ -1112,5 +1111,28 @@ body {
         color: #adaeaf;
       }
     }
+  }
+}
+
+@media  (max-width: 414px) {
+  .container .header{
+    width: 150px;
+    display: column;
+
+  }
+  .container .dishes .left {
+    width: 150px;
+  }
+  .container .dishes .right {
+    width: 150px;
+  }
+  .container .main .center .test img{
+    width: 150px;
+  }
+  .container .main .center .p1{
+    width: 150px;
+  }
+  .container .main .center .est{
+    width: 150px;
   }
 }

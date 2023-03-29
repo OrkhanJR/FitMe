@@ -12,6 +12,7 @@ body {
   height: 7252px;
 }
 .container .header {
+  width: 100%;
   display: flex;
   font-weight: 500;
   margin-top: 61px;
@@ -55,10 +56,12 @@ body {
   cursor: pointer;
 }
 .container .dishes .right {
+  max-width: 100%;
   float: right;
   margin-top: 171px;
 }
 .container .dishes .left {
+  max-width: 100%;
   float: left;
   margin-top: 193px;
 }
@@ -976,4 +979,26 @@ body {
 .container .footer .pc a {
   text-decoration: none;
   color: #adaeaf;
+}
+
+@media (max-width: 414px) {
+  .container .header {
+    width: 150px;
+    display: column;
+  }
+  .container .dishes .left {
+    width: 150px;
+  }
+  .container .dishes .right {
+    width: 150px;
+  }
+  .container .main .center .test img {
+    width: 150px;
+  }
+  .container .main .center .p1 {
+    width: 150px;
+  }
+  .container .main .center .est {
+    width: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */

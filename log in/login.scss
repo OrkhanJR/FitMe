@@ -1,0 +1,228 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+header {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+.divider {
+  img {
+    width: 100%;
+  }
+}
+
+main {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 430px;
+  width: 580px;
+  flex-direction: column;
+  
+  .main-page {
+    display: flex;
+
+    #login {
+      width: 94px;
+      height: 48px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+  form {
+    .mail {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #adaeaf;
+      }
+
+      input {
+        margin-top: 7px;
+        height: 56px;
+        border: 1px solid #adaeaf;
+        border-radius: 22px;
+      }
+    }
+    .password {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+
+      .psw {
+        margin-bottom: -10px;
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #adaeaf;
+
+        .img {
+          margin-left: 421px;
+
+          .see-btn {
+            color: transparent;
+            border-color: transparent;
+            background-color: transparent;
+            cursor: pointer;
+          }
+        }
+      }
+
+      input {
+        margin-top: 7px;
+        height: 56px;
+        border: 1px solid #adaeaf;
+        border-radius: 22px;
+      }
+    }
+    .container {
+      margin-top: 10px;
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 18px;
+      width: 18px;
+      background-color: #eee;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+      background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked ~ .checkmark {
+      background-color: #111111;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container input:checked ~ .checkmark:after {
+      display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container .checkmark:after {
+      left: 5px;
+      top: 3px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+  .login-foot {
+    margin-top: 20px;
+    .terms {
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+
+        a {
+          color: #111111;
+        }
+      }
+    }
+    .login-btn {
+      button {
+        width: 580px;
+        height: 64px;
+        border-radius: 32px;
+        background-color: #111112;
+        color: whitesmoke;
+        cursor: pointer;
+
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+    .forget {
+      display: flex;
+      justify-content: center;
+      margin-top: 24px;
+      .psw {
+        color: #111112;
+      }
+    }
+    .register {
+      display: flex;
+      justify-content: center;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #adaeaf;
+      }
+      a {
+        color: #111112;
+      }
+    }
+    .authorization {
+      margin-top: 30px;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+}
