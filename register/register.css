@@ -1,0 +1,122 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+header img {
+  width: 200px;
+}
+
+main .smreg .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  color: #111112;
+}
+main .smreg .buttons {
+  display: flex;
+  gap: 35.5px;
+  flex-direction: column;
+  align-items: center;
+}
+main .smreg .buttons .facebook .fbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 578px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 32px;
+  cursor: pointer;
+}
+main .smreg .buttons .facebook .fbutton .sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+main .smreg .divider {
+  display: flex;
+  margin-top: 48px;
+  justify-content: center;
+}
+main .smreg .form-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+main form .register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+main form .register .username {
+  display: flex;
+  flex-direction: column;
+}
+main form .register .username .psw {
+  display: flex;
+  justify-content: space-between;
+}
+main form .register .username .psw .see-btn {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+main form .register .username label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #adaeaf;
+}
+main form .register .username input {
+  width: 500px;
+  margin-top: 7px;
+  height: 56px;
+  border: 1px solid #adaeaf;
+  border-radius: 22px;
+}
+main form .register .username ::-moz-placeholder {
+  padding-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #adaeaf;
+}
+main form .register .username ::placeholder {
+  padding-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #adaeaf;
+}
+main form .register .psw-requirements {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #adaeaf;
+}/*# sourceMappingURL=register.css.map */

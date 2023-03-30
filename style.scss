@@ -6,11 +6,11 @@
 body {
   font-family: "Open Sans";
   font-style: normal;
+  width: auto;
+  height: auto;
 }
 
 .container {
-  width: 1920px;
-  height: 7252px;
   .header {
     width: 100%;
     display: flex;
@@ -1113,26 +1113,81 @@ body {
     }
   }
 }
+@media screen and (max-width: 426px) {
+  .container {
+    .header {
+      .shop {
+        .bag {
+          display: flex;
+          margin-left: 20px;
 
-@media  (max-width: 414px) {
-  .container .header{
-    width: 150px;
-    display: column;
+          .button {
+            margin-left: 20px;
+
+            .btn {
+              padding: 0 20px;
+            }
+          }
+        }
+      }
+      .logo {
+        margin-left: 10px;
+      }
+      .navigation {
+        display: none;
+      }
+    }
+    .main {
+      .center {
+        margin-top: 50px;
+        .button {
+          .btn {
+            margin-left: 1px;
+            width: 100px;
+            height: 50px;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+        }
+        .est {
+          margin-left: 1px;
+        }
+        .p1 {
+          width: 200px;
+          margin-top: 30px;
+          margin-left: 50px;
+          margin-right: 1px;
+        }
+        .test {
+          margin-left: 1px;
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
 
   }
-  .container .dishes .left {
-    width: 150px;
+  .container {
+    .dishes {
+      .left {
+        display: none;
+      }
+      .right {
+        display: none;
+      }
+    }
   }
-  .container .dishes .right {
-    width: 150px;
-  }
-  .container .main .center .test img{
-    width: 150px;
-  }
-  .container .main .center .p1{
-    width: 150px;
-  }
-  .container .main .center .est{
-    width: 150px;
+
+  .container{
+    .reviews{
+      margin-top: 20px;
+      margin-left: 10px;
+
+        .arrowimg{
+          display: none;
+        }
+    }
   }
 }

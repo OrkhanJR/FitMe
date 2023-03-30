@@ -1,0 +1,129 @@
+$register-color: #adaeaf;
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+header {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+main {
+  .smreg {
+    .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      justify-content: center;
+      color: #111112;
+    }
+    .buttons {
+      display: flex;
+      gap: 35.5px;
+      flex-direction: column;
+      align-items: center;
+      .facebook {
+        .fbutton {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+          width: 578px;
+          height: 64px;
+          background: #ffffff;
+          border: 1px solid #333333;
+          border-radius: 32px;
+          cursor: pointer;
+
+          .sign {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+          }
+        }
+      }
+    }
+    .divider {
+      display: flex;
+      margin-top: 48px;
+      justify-content: center;
+    }
+    .form-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+  form {
+    .register {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+
+      .username {
+        display: flex;
+        flex-direction: column;
+
+        .psw {
+          display: flex;
+          justify-content: space-between;
+
+          .see-btn {
+            color: transparent;
+            background-color: transparent;
+            border-color: transparent;
+            cursor: pointer;
+          }
+        }
+
+        label {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: $register-colorf;
+        }
+        input {
+          width: 500px;
+          margin-top: 7px;
+          height: 56px;
+          border: 1px solid #adaeaf;
+          border-radius: 22px;
+        }
+        ::placeholder {
+          padding-left: 24px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: $register-color;
+        }
+      }
+      .personal-info {
+        .gender {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

@@ -5,12 +5,10 @@
 body {
   font-family: "Open Sans";
   font-style: normal;
+  width: auto;
+  height: auto;
 }
 
-.container {
-  width: 1920px;
-  height: 7252px;
-}
 .container .header {
   width: 100%;
   display: flex;
@@ -981,24 +979,62 @@ body {
   color: #adaeaf;
 }
 
-@media (max-width: 414px) {
-  .container .header {
-    width: 150px;
-    display: column;
+@media screen and (max-width: 426px) {
+  .container .header .shop .bag {
+    display: flex;
+    margin-left: 20px;
   }
-  .container .dishes .left {
-    width: 150px;
+  .container .header .shop .bag .button {
+    margin-left: 20px;
   }
-  .container .dishes .right {
-    width: 150px;
+  .container .header .shop .bag .button .btn {
+    padding: 0 20px;
   }
-  .container .main .center .test img {
-    width: 150px;
+  .container .header .logo {
+    margin-left: 10px;
   }
-  .container .main .center .p1 {
-    width: 150px;
+  .container .header .navigation {
+    display: none;
+  }
+  .container .main .center {
+    margin-top: 50px;
+  }
+  .container .main .center .button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .container .main .center .button .btn {
+    margin-left: 1px;
+    width: 100px;
+    height: 50px;
   }
   .container .main .center .est {
-    width: 150px;
+    margin-left: 1px;
+  }
+  .container .main .center .p1 {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 1px;
+  }
+  .container .main .center .test {
+    margin-left: 1px;
+  }
+  .container .main .center .test img {
+    width: 300px;
+  }
+  .container .dishes .left {
+    display: none;
+  }
+  .container .dishes .right {
+    display: none;
+  }
+  .container .reviews {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .container .reviews .arrowimg {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

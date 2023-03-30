@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="/register/register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo"><img src="/assets/Logo (1).svg" alt="" /></div>
+      </div>
+    </header>
+    <main>
+      <div class="smreg">
+        <div class="title">
+          <p>Sign up for free to start your healthy life!</p>
+        </div>
+        <div class="buttons">
+          <div class="facebook">
+            <button class="fbutton">
+              <div class="icon">
+                <img src="/register/register assets/facebook.svg" alt="" />
+              </div>
+              <p class="sign">Sign up with Facebook</p>
+            </button>
+          </div>
+          <div class="facebook">
+            <button class="fbutton">
+              <div class="icon">
+                <img src="/register/register assets/google.svg" alt="" />
+              </div>
+              <p class="sign">Sign up with Google</p>
+            </button>
+          </div>
+          <div class="facebook">
+            <button class="fbutton">
+              <div class="icon">
+                <img src="/register/register assets/twitter.svg" alt="" />
+              </div>
+              <p class="sign">Sign up with Google</p>
+            </button>
+          </div>
+        </div>
+        <div class="divider">
+          <img src="/register/register assets/Divider.svg" alt="" />
+        </div>
+        <div class="form-title">
+          <p class="title">Sign up with your email address</p>
+        </div>
+      </div>
+      <form action="">
+        <div class="register">
+          <div class="username">
+            <label for="uname">Username</label>
+            <input
+              type="text"
+              name="uname"
+              required
+              placeholder="Enter your username"
+            />
+          </div>
+          <div class="username">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="uname"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="username">
+            <label class="psw" for="password">
+              Password
+              <button class="see-btn">
+                <img src="/log in/login assets/see.svg" alt="" />
+              </button>
+            </label>
+            <input
+              type="password"
+              name="uname"
+              required
+              placeholder="Enter your password"
+            />
+          </div>
+
+          <!--  Почему то в scss не работал, видимо с вложенностью проблема, поэтому
+          сразу тут написал -->
+          <div
+            class="psw-requirements"
+            style="
+              margin-top: -31px;
+              margin-left: -55px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+              color: #adaeaf;
+            "
+          >
+            <p>
+              Use 8 or more characters with a mix of letters, numbers & symbols
+            </p>
+          </div>
+          <div class="personal-info">
+            <form action="">
+              <div class="gender">What’s your gender? (optional)</div>
+
+              <label for="radio">Male</label>
+              <input type="radio" name="radio" id="" />
+
+              <label for="radio">Female</label>
+              <input type="radio" name="radio" id="" />
+
+              <label for="radio">Non-binary</label>
+              <input type="radio" name="radio" id="" />
+            </form>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
