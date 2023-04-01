@@ -15,6 +15,7 @@
 
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
   </head>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
   <body>
     <header>
       <div class="container">
@@ -48,7 +49,7 @@
               <div class="icon">
                 <img src="/register/register assets/twitter.svg" alt="" />
               </div>
-              <p class="sign">Sign up with Google</p>
+              <p class="sign">Sign up with twitter</p>
             </button>
           </div>
         </div>
@@ -94,20 +95,8 @@
             />
           </div>
 
-          <!--  Почему то в scss не работал, видимо с вложенностью проблема, поэтому
-          сразу тут написал -->
-          <div
-            class="psw-requirements"
-            style="
-              margin-top: -31px;
-              margin-left: -55px;
-              font-style: normal;
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 21px;
-              color: #adaeaf;
-            "
-          >
+         
+          <div class="psw-requirements">
             <p>
               Use 8 or more characters with a mix of letters, numbers & symbols
             </p>
@@ -116,15 +105,53 @@
             <form action="">
               <div class="gender">What’s your gender? (optional)</div>
 
-              <label for="radio">Male</label>
-              <input type="radio" name="radio" id="" />
+              <div class="radio">
+                <input type="radio" name="radio" id="" />
+                <label for="radio">Male</label>
 
-              <label for="radio">Female</label>
-              <input type="radio" name="radio" id="" />
+                <input type="radio" name="radio" id="" />
+                <label for="radio">Female</label>
 
-              <label for="radio">Non-binary</label>
-              <input type="radio" name="radio" id="" />
+                <input type="radio" name="radio" id="" />
+                <label for="radio">Non-binary</label>
+              </div>
             </form>
+          </div>
+          <div class="date">
+            <p class="paragraph">What’s your date of birth?</p>
+
+            <div class="date-choose">
+              <label for=""></label>
+
+              <input type="date" name="" id="" required />
+            </div>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="" id="" />
+
+            <label for="">
+              <p>
+                Share my registration data with our content providers for
+                marketing purposes.
+              </p>
+            </label>
+          </div>
+          <div class="policy">
+            <p>
+              By creating an account, you agree to the
+              <a href="">Terms of use</a> and <a href="">Privacy Policy.</a>
+            </p>
+          </div>
+          <!-- почему то капча не работает -->
+          <div
+            class="g-recaptcha"
+            data-sitekey="6LcPQkwlAAAAAJtCPeuYa-m1uFvNGLKVkMzqG4qV"
+          ></div>
+          <div class="sign-up">
+            <div class="login-btn">
+              <button><p>Sign Up</p></button>
+            </div>
+            <p class="login">Already have an ccount? <a href="">Log in</a></p>
           </div>
         </div>
       </form>

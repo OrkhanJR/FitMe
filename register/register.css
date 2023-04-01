@@ -1,6 +1,6 @@
 html {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   margin: 0;
   padding: 0;
 }
@@ -69,6 +69,15 @@ main form .register {
   align-items: center;
   gap: 24px;
 }
+main form .register .psw-requirements {
+  margin-top: -31px;
+  margin-left: -55px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #adaeaf;
+}
 main form .register .username {
   display: flex;
   flex-direction: column;
@@ -113,10 +122,109 @@ main form .register .username ::placeholder {
   line-height: 24px;
   color: #adaeaf;
 }
-main form .register .psw-requirements {
+main form .register .personal-info {
+  margin-left: -200px;
+}
+main form .register .personal-info .gender {
+  color: #adaeaf;
+  margin-bottom: 10px;
+}
+main form .register .personal-info .radio {
+  display: flex;
+  color: #666666;
+  gap: 10px;
+}
+main form .register .date {
+  margin-left: -300px;
+}
+main form .register .date .paragraph {
+  color: #111112;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 24px;
+}
+main form .register .date .date-choose input {
+  border-color: #adaeaf;
+  border-radius: 30px;
+  height: 30px;
+}
+main form .register .checkbox {
+  display: flex;
+}
+main form .register .checkbox input {
+  margin-top: -25px;
+}
+main form .register .checkbox label {
+  margin-left: 11px;
+}
+main form .register .checkbox label p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 459px;
+  height: 48px;
+}
+main form .register .policy p {
   color: #adaeaf;
+}
+main form .register .policy p a {
+  color: #111112;
+}
+main form .register .sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main form .register .sign-up .login-btn button {
+  width: 580px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #111112;
+  color: whitesmoke;
+  cursor: pointer;
+}
+main form .register .sign-up .login-btn button p {
+  font-size: 22px;
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  main form .register .sign-up .login-btn button {
+    width: 300px;
+  }
+}
+main form .register .sign-up .login {
+  color: #adaeaf;
+}
+main form .register .sign-up .login a {
+  color: #111112;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  main .smreg .buttons .facebook .fbutton {
+    width: auto;
+  }
+  main form .register .username input {
+    width: 300px;
+  }
+  main form .register .psw-requirements {
+    margin-left: 0px;
+  }
+  main form .register .personal-info {
+    margin-left: -1px;
+    font-size: 17px;
+  }
+  main form .register .date {
+    margin-left: 0px;
+  }
+  main form .register .checkbox label p {
+    width: auto;
+  }
+  main .smreg .divider img {
+    width: 100%;
+  }
+  main .smreg .title {
+    font-size: 25px;
+    line-height: 32px;
+  }
 }/*# sourceMappingURL=register.css.map */
