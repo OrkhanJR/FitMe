@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <title>FitMe</title>
   </head>
-  <script src="./main.js"></script>
+
   <body>
     <div class="container">
       <div class="header">
@@ -68,8 +68,9 @@
       <div class="review">
         <div class="reviews">
           <h2 class="title">
-            We cook – they enjoy every minute of their  <img class="arrowimg" src="assets/arrow right.svg" alt="arrow" /> lives
-           
+            We cook – they enjoy every minute of their
+            <img class="arrowimg" src="assets/arrow right.svg" alt="arrow" />
+            lives
           </h2>
 
           <div class="right-up">
@@ -149,9 +150,7 @@
         </div>
       </div>
 
-      <h2 style="font-weight: 700; margin-left: 240px; margin-top: 229px">
-        The most popular diets
-      </h2>
+      <h2 class="h2">The most popular diets</h2>
       <div class="diets">
         <div class="arrows">
           <div class="arrow-left">
@@ -168,7 +167,7 @@
 
         <div class="menu">
           <div class="slim">
-            <img src="assets/Mask group slim.svg" alt="" />
+            <img id="slim" src="assets/Mask group slim.svg" alt="" />
             <div><h4>Slim</h4></div>
             <div class="calorie">
               <button class="calorie-button">
@@ -199,7 +198,7 @@
           </div>
 
           <div class="fit">
-            <img src="assets/Mask group fit.svg" alt="" />
+            <img id="fit" src="assets/Mask group fit.svg" alt="" />
             <div><h4>Fit</h4></div>
             <div class="calorie">
               <button class="calorie-button">
@@ -229,7 +228,7 @@
           </div>
 
           <div class="vegan">
-            <img src="assets/Mask group vegan.svg" alt="" />
+            <img id="vegan" src="assets/Mask group vegan.svg" alt="" />
             <div><h4>Vegan</h4></div>
             <div class="calorie">
               <button class="calorie-button">
@@ -260,7 +259,7 @@
           </div>
 
           <div class="keto">
-            <img src="assets/Mask group keto.svg" alt="" />
+            <img id="keto" src="assets/Mask group keto.svg" alt="" />
             <div><h4>Keto</h4></div>
             <div class="calorie">
               <button class="calorie-button">
@@ -313,18 +312,13 @@
           <div class="city-search">
             <form>
               <label for="city"></label>
-              <input
-                class="city"
-                type="text"
-                id="name"
-                placeholder="City name"
-              />
+              <input class="city" type="text" placeholder="City name" />
             </form>
 
             <div class="nip">
               <form>
                 <label for="city"></label>
-                <input class="nip" type="text" id="name" placeholder="NIP" />
+                <input class="nip" type="text" placeholder="NIP" />
               </form>
             </div>
           </div>
@@ -350,7 +344,7 @@
             <img class="left-img" src="assets/Group 92.svg" alt="" />
           </div>
           <div class="center">
-            <img src="assets/Order your trial diet.svg" alt="" />
+            <img id="order" src="assets/Order your trial diet.svg" alt="" />
             <img
               id="try"
               src="assets/Try any diet to choose the right one for you.svg"
@@ -430,7 +424,13 @@
         <div class="head"><h2>Box diets with which you get more</h2></div>
         <div class="box">
           <div class="fresh">
-            <img src="assets/Group 96.svg" alt="" />
+            <picture>
+              <source
+                media="(max-width: 426px )"
+                srcset="assets/mobile-plant.svg"
+              />
+              <img src="assets/Group 96.svg" alt="" />
+            </picture>
 
             <div class="ingr"><h4>Fresh ingredients</h4></div>
             <div class="p">
@@ -442,7 +442,10 @@
           </div>
 
           <div class="taste">
-            <img src="assets/Group 97.svg" alt="" />
+            <picture>
+              <source media="(max-width:426px)" srcset="assets/mobile-folk.svg" />
+              <img src="assets/Group 97.svg" alt="" />
+            </picture>
             <div class="ingr"><h4>Taste</h4></div>
             <div class="p">
               Apibus sed erat nec volutpat. Interdum et
@@ -456,7 +459,10 @@
           </div>
 
           <div class="diversity">
+           <picture>
+            <source media="(max-width:426px )" srcset="assets/mobile-diversity.svg">
             <img src="assets/Group 98.svg" alt="" />
+           </picture>
             <div class="ingr"><h4>Diversity</h4></div>
             <div class="p">
               Proin hendrerit molestie placerat ec ante
@@ -485,7 +491,11 @@
         <div class="blog">
           <div class="left-img">
             <div style="margin-top: 52px">
+             <picture>
+              <!-- я сам в фотошопе уменьшил размер и получилось коряво -->
+              <source media="(max-width: 426px)" srcset="assets/mobile-citrus.png">
               <img src="assets/Mask group Vitamin C.svg" alt="" />
+             </picture>
             </div>
 
             <div class="text-of-img">

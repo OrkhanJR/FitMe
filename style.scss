@@ -227,6 +227,11 @@ body {
       }
     }
   }
+  .h2 {
+    font-weight: 700;
+    margin-left: 240px;
+    margin-top: 229px;
+  }
 
   .diets {
     .arrows {
@@ -492,7 +497,7 @@ body {
     width: 1440px;
     height: 416px;
     margin-left: 239px;
-    margin-right: 241;
+    margin-right: 241px;
     margin-top: 229px;
 
     .left-side {
@@ -1167,7 +1172,6 @@ body {
         }
       }
     }
-
   }
   .container {
     .dishes {
@@ -1180,14 +1184,461 @@ body {
     }
   }
 
-  .container{
-    .reviews{
+  .container {
+    .reviews {
+      display: inline;
       margin-top: 20px;
       margin-left: 10px;
 
-        .arrowimg{
+      .title {
+        width: auto;
+      }
+
+      .right-up {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+
+        .cloud {
+          width: auto;
+          height: auto;
+        }
+      }
+      .title {
+        width: auto;
+      }
+
+      .arrowimg {
+        display: none;
+      }
+    }
+    .left-down {
+      .because {
+        display: none;
+      }
+      .cloud {
+        width: auto;
+        height: auto;
+      }
+      .right-down {
+        margin-left: 1px;
+        margin-left: -220px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+      }
+      .quote {
+        .quote1 {
           display: none;
         }
+        .quote2 {
+          display: none;
+        }
+      }
+    }
+    .h2 {
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    .diets {
+      .arrows {
+        display: none;
+      }
+    }
+    .menu {
+      display: flex;
+      gap: 50px;
+      flex-direction: column;
+
+      .slim {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+
+        #slim {
+          width: 250px;
+        }
+        .price {
+          width: 128px;
+
+          #choose-btn {
+            margin-left: 30px;
+          }
+        }
+      }
+      .fit {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+
+        #fit {
+          width: 250px;
+        }
+        .price2 {
+          width: 128px;
+
+          .choose-btn {
+            margin-left: 30px;
+          }
+        }
+      }
+      .vegan {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+
+        #vegan {
+          width: 250px;
+        }
+        .price3 {
+          width: 128px;
+
+          .choose-btn {
+            margin-left: 30px;
+          }
+        }
+      }
+      .keto {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+
+        #keto {
+          width: 250px;
+        }
+        .price4 {
+          width: 128px;
+
+          .choose-btn {
+            margin-left: 30px;
+          }
+        }
+      }
+    }
+    .delivery {
+      margin-left: 1px;
+      margin-top: 100px;
+
+      .left-side {
+        .right-side {
+          display: none;
+        }
+        .city-search {
+          flex-direction: column;
+
+          .nip {
+            form {
+              input.nip {
+                margin-top: 1px;
+              }
+            }
+          }
+
+          form {
+            input.city {
+              width: auto;
+            }
+          }
+        }
+        #left-p {
+          width: 300px;
+        }
+      }
+    }
+    .trial {
+      margin: 0px 0px;
+      margin-top: 50px;
+      margin-left: 1px;
+      .cloud {
+        width: auto;
+        background-color: transparent;
+        .center {
+          position: absolute;
+          right: 0;
+          left: 0;
+
+          .button {
+            margin-top: 40px;
+            margin-left: 1px;
+          }
+
+          #order {
+            width: 200px;
+          }
+          #try {
+            width: 300px;
+            margin-left: 1px;
+          }
+        }
+        .right-img {
+          display: none;
+        }
+        .left-img {
+          display: none;
+        }
+      }
+    }
+    .order {
+      width: auto;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      .bottom {
+        display: none;
+        .left-img {
+          display: none;
+        }
+      }
+
+      #order-fast {
+        margin-left: 1px;
+        font-weight: bold;
+        font-size: medium;
+        line-height: normal;
+        flex-direction: column;
+
+        .right-text {
+          margin-left: 0px;
+          margin-top: 0px;
+          width: auto;
+        }
+
+        h2 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .heart {
+            margin-top: -35px;
+            margin-left: -57px;
+
+            #heart {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .box-diets {
+      width: auto;
+      height: auto;
+      margin-top: 229px;
+      margin-left: 10px;
+
+      .box {
+        display: flex;
+        width: 275px;
+        height: auto;
+        flex-direction: column;
+
+        .diversity {
+          margin-left: 66px;
+        }
+      }
+
+      .head {
+        line-height: normal;
+
+        font-size: medium;
+        width: auto;
+      }
+    }
+    .main-blog {
+      width: auto;
+      height: auto;
+      margin-top: 70px;
+      margin-left: 10px;
+      .blog {
+        display: flex;
+        flex-direction: column;
+
+        .left-img {
+          .text-of-img {
+            display: block;
+            .clock {
+              margin-left: 0px;
+              margin-top: 0px;
+            }
+
+            .h4 {
+              width: auto;
+              height: auto;
+
+              #mae {
+                width: auto;
+                height: auto;
+              }
+            }
+          }
+        }
+        .right-side {
+          margin-top: 0px;
+
+          .right-top {
+            margin-top: 50px;
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            #efficitur {
+              margin-left: 0px;
+              margin-top: 0px;
+              width: auto;
+              height: 100px;
+            }
+
+            .bottom {
+              margin-left: 0px;
+              margin-top: 70px;
+              display: flex;
+              margin-left: -10px;
+              align-items: center;
+              gap: 10px;
+              .clock {
+                margin-left: 0px;
+              }
+              #bell {
+                width: 75px;
+                height: 19px;
+              }
+            }
+
+            .h4 {
+              margin-top: 30px;
+              margin-left: 0px;
+            }
+          }
+          .right-middle {
+            margin-top: 50px;
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .h4 {
+              position: static;
+              img {
+                width: 100%;
+              }
+            }
+
+            .bottom {
+              margin-left: 0px;
+              margin-top: 70px;
+              display: flex;
+
+              align-items: center;
+              gap: 10px;
+              .clock {
+                margin-left: 0px;
+              }
+              #howard {
+                width: auto;
+                height: 19px;
+              }
+            }
+
+            .h4 {
+              margin-top: 30px;
+              margin-left: 0px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+          .right-bottom {
+            margin-top: 50px;
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            #efficitur {
+              margin-left: 0px;
+              margin-top: 0px;
+              width: auto;
+              height: 100px;
+            }
+
+            .bottom {
+              margin-left: 0px;
+              margin-top: 70px;
+              display: flex;
+              margin-left: -10px;
+              align-items: center;
+              gap: 10px;
+              .clock {
+                margin-left: 0px;
+              }
+              #henry {
+                width: auto;
+                height: 19px;
+              }
+            }
+
+            .h4 {
+              margin-top: 30px;
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+    }
+    .faq {
+      width: auto;
+      height: auto;
+      margin-top: 100px;
+      margin-left: 1px;
+      margin-right: 1px;
+
+      img {
+        width: auto;
+      }
+      .q1 {
+        #q1 {
+          font-size: medium;
+          line-height: normal;
+        }
+      }
+    }
+    .footer {
+      width: 100%;
+      height: 100%;
+
+      .foot-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .navigation {
+          margin-left: 10px;
+          margin-top: 65px;
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+        }
+
+        .logo-foot {
+          margin-left: 10px;
+          margin-top: 10px;
+        }
+        .contacts {
+          margin-left: 10px;
+          margin-top: 40px;
+        }
+      }
+      .icons{
+        margin-left: 10px;
+      }
+      .pc{
+        margin-left: 10px;
+      }
     }
   }
 }

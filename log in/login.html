@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
   </head>
+  <script src="/log in/login.js"></script>
   <body>
     <header>
       <div class="container">
@@ -30,20 +31,27 @@
       <form action="">
         <div class="mail">
           <label for="uname">Email address or user name</label>
-          <input type="text" name="uname" required />
+          <input type="text" name="uname" required id="uname" />
+          <div id="error-mail" style="color: red; display: none">
+            incorrect email or username
+          </div>
         </div>
         <div class="password">
           <label for="password">
             <div class="psw">
               Password
               <div class="img">
-                <button class="see-btn">
-                  <img src="/log in/login assets/see.svg" alt="" />
+                <button class="see-btn" onclick="changeInputType()">
+                  <img src="/log in/login assets/hide icon.png" alt="" />
                 </button>
+                <button class="see-btn" style="display: none; cursor: pointer;" onclick="changeInputType()"><img src="/log in/login assets/see.png" alt=""></button>
               </div>
             </div>
           </label>
-          <input type="password" name="psw" required />
+          <input type="password" name="psw" required id="psw"/>
+          <div id="error-psw" style="color: red; display: none">
+            incorrect password
+          </div>
         </div>
 
         <label class="container"
@@ -61,13 +69,14 @@
           </p>
         </div>
         <div class="login-btn">
-          <button><p>Log in</p></button>
+          <button  onclick="checkPassword(), checkEmail()"><p>Log in</p></button>
         </div>
+        
         <div class="forget">
           <a class="psw" href="">Forget your password?</a>
         </div>
         <div class="register">
-          <p>Don’t have an acount? <a href="">Sign up</a></p>
+          <p>Don’t have an acount? <a href="/register/register.html">Sign up</a></p>
         </div>
         <div class="authorization">
           <img src="/log in/login assets/Divider 2.svg" alt="" />
