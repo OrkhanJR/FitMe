@@ -1,6 +1,6 @@
 html {
-  width: 1920px;
-  height: 2079px;
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -800,12 +800,11 @@ body {
         color: #111112;
       }
     }
-    .line{
+    .line {
       width: 8px;
       height: 3px;
       margin-top: -21px;
       margin-left: 5px;
-
     }
   }
 
@@ -883,6 +882,305 @@ body {
       a {
         text-decoration: none;
         color: #adaeaf;
+      }
+    }
+  }
+}
+@media screen and (max-width: 426px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    .header {
+      .shop {
+        .bag {
+          margin-left: 30px;
+          .button {
+            margin-left: 25px;
+          }
+        }
+      }
+      .logo {
+        margin-left: 10px;
+      }
+      .navigation {
+        display: none;
+      }
+    }
+    .menu {
+      .title {
+        margin-left: 10px;
+        margin-top: 80px;
+      }
+      .categories {
+        flex-wrap: wrap;
+        .choose {
+          margin-left: 10px;
+        }
+        .top-btn {
+          margin-left: 10px;
+        }
+      }
+      .food-top {
+        margin-top: 28px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .dish1 {
+          width: auto;
+
+          #dish1 {
+            width: 100%;
+          }
+          .parent {
+            .title-b {
+              .title-break {
+                width: 260px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+        .dish2 {
+          width: auto;
+
+          #dish2 {
+            width: 100%;
+          }
+          .parent {
+            .about {
+              width: 100%;
+              margin-top: -20px;
+            }
+            .title-b {
+              .title-break {
+                width: 320px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+        .dish3 {
+          width: auto;
+
+          #dish3 {
+            width: 100%;
+          }
+          .parent {
+            .about {
+              margin-top: -25px;
+            }
+            .title-b {
+              .title-break {
+                width: 320px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+        .dish4 {
+          width: auto;
+
+          #dish4 {
+            width: 100%;
+          }
+          .parent {
+            .about {
+              margin-top: -25px;
+            }
+            .title-b {
+              .title-break {
+                width: 320px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+      }
+      .food-bottom {
+        margin-top: 28px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .dish5 {
+          width: auto;
+
+          #dish5 {
+            width: 100%;
+          }
+          .parent {
+            .about{
+              margin-top: -27px;
+            }
+            .title-b {
+              .title-break {
+                width: 260px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+        .dish6 {
+          width: auto;
+
+          #dish6 {
+            width: 100%;
+          }
+          .parent {
+            .about {
+              width: 100%;
+              margin-top: -20px;
+            }
+            .title-b {
+              .title-break {
+                width: 320px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+        .dish7 {
+          width: auto;
+
+          #dish7 {
+            width: 100%;
+          }
+          .parent {
+            .about {
+              margin-top: -25px;
+            }
+            .title-b {
+              .title-break {
+                width: 320px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+        .dish8 {
+          width: auto;
+
+          #dish8 {
+            width: 100%;
+          }
+          .parent {
+            .about {
+              margin-top: -25px;
+            }
+            .title-b {
+              .title-break {
+                width: 320px;
+              }
+              .kcal {
+                width: auto;
+                height: auto;
+              }
+            }
+            .foot {
+              .icons {
+                margin-left: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .more{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .footer {
+      width: 100%;
+      height: 100%;
+
+      .foot-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .navigation {
+          margin-left: 10px;
+          margin-top: 65px;
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+        }
+
+        .logo-foot {
+          margin-left: 10px;
+          margin-top: 10px;
+        }
+        .contacts {
+          margin-left: 10px;
+          margin-top: 40px;
+        }
+      }
+      .icons{
+        margin-left: 10px;
+      }
+      .pc{
+        margin-left: 10px;
       }
     }
   }

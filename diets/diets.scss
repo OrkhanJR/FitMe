@@ -702,3 +702,228 @@ body {
     }
   }
 }
+@media screen and (max-width: 426px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    .header {
+      .shop {
+        .bag {
+          margin-left: 30px;
+          .button {
+            margin-left: 25px;
+          }
+        }
+      }
+      .logo {
+        margin-left: 10px;
+      }
+      .navigation {
+        display: none;
+      }
+    }
+    .diets {
+      .h2 {
+        margin-top: 100px;
+        margin-left: 10px;
+      }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+
+        .slim {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #slim {
+            width: 100%;
+          }
+          .price {
+            #choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+        .fit {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #fit {
+            width: 100%;
+          }
+          .price2 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+
+        .vegan {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #vegan {
+            width: 100%;
+          }
+          .price3 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+
+        .keto {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #keto {
+            width: 100%;
+          }
+          .price4 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+      .bottom-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        margin-left: 0px;
+
+        .gym {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #gym {
+            width: 100%;
+          }
+          .price5 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+        .office-box {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #office {
+            width: 100%;
+          }
+          .price6 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+
+        .for-moms {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #moms {
+            width: 100%;
+          }
+          .price7 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+
+        .low-ig {
+          margin-left: 10px;
+          width: auto;
+          height: auto;
+
+          #low {
+            width: 100%;
+          }
+          .price8 {
+            .choose-btn {
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+    .choose {
+      .cloud {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 130px;
+        width: auto;
+        height: auto;
+        position: static;
+        background-color: transparent;
+
+        .left-img {
+          display: none;
+        }
+        .right-img {
+          display: none;
+        }
+
+        .center {
+          position: static;
+          .button {
+            margin-top: 24px;
+          }
+
+          img {
+            width: 100%;
+          }
+          #try {
+            width: 100%;
+            position: static;
+          }
+        }
+      }
+    }
+    .footer {
+      width: 100%;
+      height: 100%;
+
+      .foot-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .navigation {
+          margin-left: 10px;
+          margin-top: 65px;
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+        }
+
+        .logo-foot {
+          margin-left: 10px;
+          margin-top: 10px;
+        }
+        .contacts {
+          margin-left: 10px;
+          margin-top: 40px;
+        }
+      }
+      .icons {
+        margin-left: 10px;
+      }
+      .pc {
+        margin-left: 10px;
+      }
+    }
+  }
+}
