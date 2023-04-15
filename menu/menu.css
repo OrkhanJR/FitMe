@@ -190,7 +190,8 @@ body {
 .container .food-top {
   margin-top: 28px;
   margin-left: 240px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 .container .food-top .dish1 {
@@ -449,9 +450,9 @@ body {
   margin-left: 188px;
 }
 .container .food-bottom {
+  display: flex;
   margin-top: 68px;
   margin-left: 240px;
-  display: flex;
   gap: 20px;
 }
 .container .food-bottom .dish5 {

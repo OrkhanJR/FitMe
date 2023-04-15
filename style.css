@@ -7,6 +7,7 @@ body {
   font-style: normal;
   width: auto;
   height: auto;
+  margin: 0;
 }
 
 .container .header {
@@ -916,8 +917,8 @@ body {
   line-height: 38px;
 }
 .container .footer {
-  width: 1920px;
-  height: 313px;
+  width: auto;
+  height: auto;
   margin-top: 251px;
   background-color: #f5f5f5;
 }
@@ -1087,6 +1088,9 @@ body {
     margin-left: 10px;
     margin-top: 30px;
   }
+  .container .diets {
+    padding: 10px;
+  }
   .container .diets .arrows {
     display: none;
   }
@@ -1155,6 +1159,9 @@ body {
     margin-left: 1px;
     margin-top: 100px;
   }
+  .container .delivery .left-side {
+    padding: 10px;
+  }
   .container .delivery .left-side .right-side {
     display: none;
   }
@@ -1174,6 +1181,7 @@ body {
     margin: 0px 0px;
     margin-top: 50px;
     margin-left: 1px;
+    padding: 10px;
   }
   .container .trial .cloud {
     width: auto;
